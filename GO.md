@@ -11,8 +11,9 @@
 # Contents
 1. [Introduction](#introduction)
 2. [Hello world](#hello-world)
-3. [Declarations](#declarations)
-4. [Operators](#operators)
+3. [Data types](#data-types)
+4. [Declarations](#declarations)
+5. [Operators](#operators)
     * [Arithmetic](#arithmetic)
     * [Relational](#relational)
     * [Logical](#logical)
@@ -35,6 +36,7 @@
 The program starts running in the `main` package, this is why we need to declare the `main` package.
 Every package has an export name, the name is exported if it starts with capitale letter. We can import a package with the key-word `import` followed by the package name.
 `fmt` is used to generate output.
+
 ```go
 package main
 
@@ -47,7 +49,7 @@ func main() {
 
 ### Declarations
 
-Varaible declarations:
+Variable declarations:
 ```go
 // create i variable
 var i int
@@ -69,6 +71,8 @@ variable1, variable2 := 10, 5
 
 ```
 
+### Data types
+
 ### Operators
 
 
@@ -82,8 +86,9 @@ variable1, variable2 := 10, 5
 # Contents
 1. [Introduction](#introduction)
 2. [Hello world](#hello-world)
-3. [Déclarations](#déclarations)
-4. [Opérateurs](#opérateurs)
+3. [Type de données](#type-de-données)
+4. [Déclarations](#déclarations)
+5. [Opérateurs](#opérateurs)
     * [Arithmetic](#arithmetic)
     * [Relational](#relational)
     * [Logical](#logical)
@@ -121,7 +126,7 @@ func main() {
 
 ### Declarations
 
-Varaible declarations:
+Déclaration de variables:
 ```go
 // créer variable i
 var i int
@@ -142,5 +147,7 @@ variable := 10
 variable1, variable2 := 10, 5
 
 ```
+
+### Type de données
 
 ### Operators
