@@ -73,6 +73,13 @@ variable1, variable2 := 10, 5
 
 ### Data types
 
+| Type      | Description | Examples   |
+| :---        |    :----:   |          ---: |
+| `Numeric`      | Arithmetic types: integer, float and complex      | `66`, `-128`, `499.99`, `5i`   |
+| `Boolean`   | Logic type of the two predefined constants  | `True`, `False`   |
+| `String`  | A string type represents the set of string values   | `"Hello"`,  `"123456789"`, `"@#~èù*"` |
+| `Derived`   | Pointer types, array types, structure types, union types, function types, slice types, map types, interface types     | ...   |
+
 ### Operators
 
 
@@ -149,5 +156,13 @@ variable1, variable2 := 10, 5
 ```
 
 ### Type de données
+
+
+| Type      | Description | Examples   |
+| :---        |    :----:   |          ---: |
+| `Numeric`      | Types arithmetiques : integer, float and complex      | `66`, `-128`, `499.99`, `5i`   |
+| `Boolean`   | Type logique de deux constantes prédéfinies  | `True`, `False`   |
+| `String`  | Un type string represente une chaine de caractères   | `"Hello"`,  `"123456789"`, `"@#~èù*"` |
+| `Derived`   | Pointer types, array types, structure types, union types, function types, slice types, map types, interface types     | ...   |
 
 ### Operators
