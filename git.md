@@ -23,7 +23,7 @@ $ git commit -am "first commit"
 
 You can also create your own command by using `alias`.
 This allow you to exec a specific command faster. 
-```console
+```zsh
 # create the ac command  to exec commit -am 
 $ git config --global alias.ac "commit -am"
 # create the co command to exec checkout
