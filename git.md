@@ -7,6 +7,8 @@
 
 # Contents
 1. [Advanced tips](#advanced-tips)
+    * [Combined commit](#combined-commit)
+    * [Amend](#amend)
 
 ### Advanced tips
 
