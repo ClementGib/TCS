@@ -14,7 +14,7 @@
 
 #### Combined commit
 
-Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am "message"`
+Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am "message"`. <br>
 This command followed by the commit message will automaticly add files of the current folder and commit with a message
 ```bash
 # git commit and automatic git add .
