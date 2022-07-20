@@ -40,7 +40,7 @@ $ git config --global alias.st status
 If you made a mistake during writing your last commit, you can use `amend` to reword it.
 ```bash
 # wrong commit message
-$ git commit -am "firsr commit"
+$ git commit -am "first commiir"
 # reword last commit
 $ git --amend -m "first commit"
 ```
