@@ -1,4 +1,4 @@
-#Go Cheat Sheet <img align="center" width="80" height="80" src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg" alt="Go icon">
+# Go Cheat Sheet <img align="center" width="80" height="80" src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg" alt="Go icon">
 
 # Languages
 [English](#english-)
