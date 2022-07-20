@@ -21,7 +21,7 @@ This command followed by the commit message will automaticly add files of the cu
 $ git commit -am "first commit"
 ```
 
-You can also create your own command by using `alias`.
+You can also create your own command by using `alias`.<br>
 This allow you to exec a specific command faster. 
 ```zsh
 # create the ac command  to exec commit -am 
