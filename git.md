@@ -42,3 +42,11 @@ $ git commit -am "firsr commit"
 # reword last commit
 $ git --amend -m "first commit"
 ```
+
+If you you forgot a files to your last commit you can add it without create an another commit.
+```bash
+# add forgotten files of current folder
+$ git add .
+# add files to last commit
+$ git --amend --no-edit
+```
