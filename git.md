@@ -45,7 +45,7 @@ $ git commit -am "firsr commit"
 $ git --amend -m "first commit"
 ```
 
-If you you forgot a files to your last commit you can add it without create an another commit.
+If you forgot a files to your last commit you can add it without create an another commit.
 ```bash
 # add forgotten files of current folder
 $ git add .
