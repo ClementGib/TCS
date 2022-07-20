@@ -73,6 +73,7 @@ variable1, variable2 := 10, 5
 
 ### Data types
 
+#### Type groups
 | Type      | Description | Examples   |
 | :---        |    :----:   |          ---: |
 | `Numeric`      | Arithmetic types: integer, float and complex      | `66`, `-128`, `499.99`, `5i`   |
@@ -157,7 +158,7 @@ variable1, variable2 := 10, 5
 
 ### Type de données
 
-
+#### Groupes de type
 | Type      | Description | Examples   |
 | :---        |    :----:   |          ---: |
 | `Numeric`      | Types arithmetiques : integer, float and complex      | `66`, `-128`, `499.99`, `5i`   |
