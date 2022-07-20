@@ -3,7 +3,7 @@
 # Languages
 [English](#english-)
 
-## English 🇬🇧🇺🇸
+## English 🇬🇧 🇺🇸
 
 # Contents
 1. [Advanced tips](#advanced-tips)
