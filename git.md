@@ -14,8 +14,8 @@
 
 #### Combined commit
 
-Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am`
-
+Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am "message"`
+This command followed by the commit message will automaticly add files of the current folder and commit with a message
 ```bash
 # git commit and automatic git add .
 $ git commit -am "first commit"
@@ -45,7 +45,7 @@ $ git commit -am "firsr commit"
 $ git --amend -m "first commit"
 ```
 
-If you forgot a files to your last commit you can add it without create an another commit.
+If you forgot files into your last commit, you can add it without create an another commit.
 ```bash
 # add forgotten files of current folder
 $ git add .
