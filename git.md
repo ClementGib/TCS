@@ -15,7 +15,7 @@
 Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am`
 
 ```bash
-# automatic git add .
+# git commit and automatic git add .
 $ git commit -am "first commit"
 ```
 
