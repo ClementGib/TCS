@@ -12,7 +12,7 @@
 
 ### Advanced tips
 
-#### Combined commit
+#### Combined commit ⏩
 
 Usually people do `git add` and `git commit` but this is possible do it in one line with `git commit -am "message"`. <br>
 This command followed by the commit message will automaticly add files of the current folder and commit with a message
@@ -21,7 +21,7 @@ This command followed by the commit message will automaticly add files of the cu
 $ git commit -am "first commit"
 ```
 
-You can also create your own command by using `alias`.<br>
+You can also create your own command by using `alias`.✨ <br>
 This allow you to exec a specific command faster. 
 ```zsh
 # create the ac command  to exec commit -am 
@@ -36,13 +36,13 @@ $ git config --global alias.ci commit
 $ git config --global alias.st status
 ```
 
-#### Amend
+#### Amend 📝
 If you made a mistake during writing your last commit, you can use `amend` to reword it.
 ```bash
 # wrong commit message
 $ git commit -am "first commiir"
 # reword last commit
-$ git --amend -m "first commit"
+$ git commit --amend -m "first commit"
 ```
 
 If you forgot files into your last commit, you can add it without create an another commit.
@@ -50,5 +50,25 @@ If you forgot files into your last commit, you can add it without create an anot
 # add forgotten files of current folder
 $ git add .
 # add files to last commit
-$ git --amend --no-edit
+$ git commit --amend --no-edit
 ```
+
+
+#### Push ➡️
+⛔ If you do an ordinary push it can be rejected for many reason:
+- You rebased your branch onto master
+- You reordered the commits
+- You changed the commit messages
+- You squashed the commits into one
+
+In this case you can use `--force` or the short version `-f`, to bypass all the restriction right ?
+If someone pushed a new commit before you and you don't have the last version of the branch, you will erase his commit forever... 💀
+
+To avoid that, one can instead use the `git push --force-with-lease` command.git gonna check if the remote version of the branch is the same as the one you rebase and if someone push new commits when we were rebasing. The push is then rejected if the remotes branch is changed! ⛔
+```bash
+# push if base branch is the same
+git push --force-with-lease
+```
+
+#### Revert 
+...
