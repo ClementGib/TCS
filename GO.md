@@ -156,6 +156,9 @@ variable := 10
 // initialisation de variable rapide et multiple
 variable1, variable2 := 10, 5
 
+// declaration d'une constante
+const color = "red";
+
 ```
 
 ### Type de données
