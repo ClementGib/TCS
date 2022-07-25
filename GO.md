@@ -69,6 +69,8 @@ variable := 10
 // short multiple variables init
 variable1, variable2 := 10, 5
 
+// constant declaration
+const color = "red";
 ```
 
 ### Data types
