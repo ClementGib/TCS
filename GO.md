@@ -85,7 +85,17 @@ const color = "red";
 
 ### Operators
 
+#### Arithmetic operators:
 
+| Operator      | Description | Example |
+| :---        |    :----:   |          ---: |
+| `+`      | addition     | `20 + 2` // 22   |
+| `-`   | substraction        | `10-5` // 5   |
+| `*`   | multiplication        | `3*4` // 12    |
+| `/`   | division        | `3/2` // 1   |
+| `%`   | modulus (gives the remainder after division)         | `3%2` // remainder is 1   |
+| `++`  | increment| `age++` // age += 1 after the line|
+| `--`  | decrement | `candies--` // candies -= 1 after the line|
 
 <br>
 <br>
@@ -172,3 +182,16 @@ const color = "red";
 | `Derived`   | Pointer types, array types, structure types, union types, function types, slice types, map types, interface types     | ...   |
 
 ### Operators
+
+
+#### Operateurs arithmétique :
+
+| Opérateur      | Description | Example |
+| :---        |    :----:   |          ---: |
+| `+`      | addition     | `20 + 2` // 22   |
+| `-`   | soustraction        | `10-5` // 5   |
+| `*`   | multiplication        | `3*4` // 12    |
+| `/`   | division        | `3/2` // 1   |
+| `%`   | modulo (gives the remainder after division)         | `3%2` // le reste est 1   |
+| `++`  | incrément| `age++` // age += 1 après la ligne |
+| `--`  | decrément | `candies--` // candies -= 1 après la ligne |
