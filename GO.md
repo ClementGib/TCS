@@ -18,6 +18,7 @@
     * [Relational](#relational)
     * [Logical](#logical)
     * [Other](#other)
+6. [Formatting](#formatting)
 
 ### Introduction
 * Imperative language
@@ -96,6 +97,29 @@ const color = "red";
 | `%`   | modulus (gives the remainder after division)         | `3%2` // remainder is 1   |
 | `++`  | increment| `age++` // age += 1 after the line|
 | `--`  | decrement | `candies--` // candies -= 1 after the line|
+
+
+#### Formatting:
+The Go language has a formatting convention with large indentations be done via tabs and never spaces. <br> 
+For this it uses formatting tool called gofmt:
+Formatting:
+```bash
+gofmt -w file.go
+
+# OR
+
+go fmt path/to/your/package
+
+```
+Formatting all Go files is recommended, it allow to :
+- easier to write: never worry about minor formatting concerns while hacking away,
+- easier to read: when all code looks the same you need not mentally convert others' formatting style into something you can understand.
+- easier to maintain: mechanical changes to the source don’t cause unrelated changes to the file’s formatting; diffs show only the real changes.
+
+
+
+
+
 
 <br>
 <br>
@@ -195,3 +219,5 @@ const color = "red";
 | `%`   | modulo (gives the remainder after division)         | `3%2` // le reste est 1   |
 | `++`  | incrément| `age++` // age += 1 après la ligne |
 | `--`  | decrément | `candies--` // candies -= 1 après la ligne |
+
+#### Formatage:
