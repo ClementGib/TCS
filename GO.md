@@ -102,7 +102,6 @@ const color = "red";
 #### Formatting:
 The Go language has a formatting convention with large indentations be done via tabs and never spaces. <br> 
 For this it uses formatting tool called gofmt:
-Formatting:
 ```bash
 gofmt -w file.go
 
