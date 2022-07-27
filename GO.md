@@ -220,3 +220,17 @@ const color = "red";
 | `--`  | decrément | `candies--` // candies -= 1 après la ligne |
 
 #### Formatage:
+Le langage Go a une convention de formatage avec des indentations larges faites avec des tabulations et pas des espaces. <br> 
+Pour cela un outil de formatage est utilisé, il s'appelle gofmt:
+```bash
+gofmt -w file.go
+
+# OU
+
+go fmt path/to/your/package
+
+```
+Formater tous les fichiers Go est recommandé, il permet de:
+- facilite l'écriture: ne pas s'inquiéter des problèmes de formatage mineurs pendant le développement
+- facile à lire: quand tous les codes se ressemblent, vous n'avez pas besoin de le convertir mentalement sous un autre formattage que vous pourrez comprendre. 
+- facile à maintenir: les modifications mécaniques apportées au code source n'entraînent pas de modifications de formatage sans aucun rapport du fichier ;diffs ne montrent que les véritables changements. 
