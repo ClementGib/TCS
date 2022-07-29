@@ -49,8 +49,8 @@ func main() {
 ```
 
 ### Declarations:
-- Global variable : Variables that are declared in the global scope, it can be accessed throughout the program or within any function in the defined package.
-- Local variable : Variables that are declared inside a function or a block.
+- `Global variable` : Variables that are declared in the `global scope`, it can be accessed throughout the program or within any `function` in the defined `package`.
+- `Local variable` : Variables that are declared inside a `function` or a `block`.
 
 If a local and global variable share a name, the compiler will always choose the local variable, the program gonna work!
 
@@ -172,8 +172,8 @@ func main() {
 ```
 
 ### Declarations
-- Variable globale  : Variable déclaré champ globale, elles sont accessible au travers tous le programme ou dans une fonction dans le même package.
-- Variable locale : Variables déclaré dans un une fonction ou un block.
+- `Variable globale`  : Variable déclaré `champ globale`, elles sont accessible au travers tous le programme ou dans une `fonction` dans le même `package`.
+- `Variable locale` : Variables déclaré dans un une `fonction` ou un `block`.
 
 If une variable locale ou une variable gloable partagent le même nom, le compilateur va toujours prioriser les variables locales, le programme va fonctionner !
 
