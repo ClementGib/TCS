@@ -48,7 +48,11 @@ func main() {
 }
 ```
 
-### Declarations
+### Declarations:
+- Global variable : Variables that are declared in the global scope, it can be accessed throughout the program or within any function in the defined package.
+- Local variable : Variables that are declared inside a function or a block.
+
+If a local and global variable share a name, the compiler will always choose the local variable, the program gonna work!
 
 Variable declarations:
 ```go
@@ -64,10 +68,10 @@ var a, b, c int = 8, 16, 42
    b equals 16
    c equals 42 */
 
-// short variable init
+// short variable init (only for local variable)
 variable := 10
 
-// short multiple variables init
+// short multiple variables init (only for local variable)
 variable1, variable2 := 10, 5
 
 // constant declaration
@@ -168,6 +172,10 @@ func main() {
 ```
 
 ### Declarations
+- Variable globale  : Variable déclaré champ globale, elles sont accessible au travers tous le programme ou dans une fonction dans le même package.
+- Variable locale : Variables déclaré dans un une fonction ou un block.
+
+If une variable locale ou une variable gloable partagent le même nom, le compilateur va toujours prioriser les variables locales, le programme va fonctionner !
 
 Déclaration de variables:
 ```go
@@ -183,10 +191,10 @@ var a, b, c int = 8, 16, 42
    b equals 16
    c equals 42 */
 
-// initialisation de variable rapide
+// initialisation de variable rapide (seulement pour les variables locales)
 variable := 10
 
-// initialisation de variable rapide et multiple
+// initialisation de variable rapide et multiple (seulement pour les variables locales)
 variable1, variable2 := 10, 5
 
 // declaration d'une constante
