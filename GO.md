@@ -48,6 +48,8 @@ func main() {
 }
 ```
 
+Run the program with `go run file.go`
+
 ### Declarations:
 - `Global variable` : Variables that are declared in the `global scope`, it can be accessed throughout the program or within any `function` in the defined `package`.
 - `Local variable` : Variables that are declared inside a `function` or a `block`.
@@ -170,6 +172,8 @@ func main() {
     fmt.Println("Hello, World!")
 }
 ```
+
+Lancer le programme avec `go run file.go`
 
 ### Declarations
 - `Variable globale`  : Variable déclaré `champ globale`, elles sont accessible au travers tous le programme ou dans une `fonction` dans le même `package`.
