@@ -24,6 +24,5 @@ When a Class is required to perform actions that are not useful, it is wasteful 
 
 #### D
 *Dependency Inversion Principle*
-<p>
   - High-level modules should not depend on low-level modules. Both should depend on the abstraction.
-  - Abstractions should not depend on details. Details should depend on abstractions.</P>
+  - Abstractions should not depend on details. Details should depend on abstractions.
