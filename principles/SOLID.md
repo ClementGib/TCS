@@ -9,6 +9,7 @@ This principle aims to separate behaviours so that if bugs arise as a result of 
 <p>Classes should be open for extension, but closed for modification,  
 software is made for solving a specific problem or meeting specific requirements in the real world and there is always a huge chance that the requirements will change.
 Developers should take it with responsibility every time when we build any project, which includes the adoption of techniques that allows us to have a code structure that minimizes the chances to introduce new bugs in the cases when the business requirement changes.
+This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to avoid causing bugs wherever the Class is being used.
 </p>
 
 #### L
